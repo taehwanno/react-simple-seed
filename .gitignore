@@ -1,0 +1,5 @@
+coverage/
+documentation/esdoc/
+node_modules/
+build/
+.idea/

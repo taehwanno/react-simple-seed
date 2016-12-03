@@ -1,0 +1,11 @@
+{
+  "source": "app",
+  "includes": ["\\.jsx?$"],
+  "excludes": ["-mock\\.jsx?$"],
+  "destination": "./documentation/esdoc",
+  "test": {
+    "type": "mocha",
+    "source": "./app",
+    "includes": ["\\.spec\\.js$"]
+  }
+}

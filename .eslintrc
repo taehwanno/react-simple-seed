@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "mocha": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    // manipulate eslint rule options
+    "react/prefer-stateless-function": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "eslint-import-resolver-webpack": {
+        "config": "webpack.config.js"
+      }
+    }
+  }
+}
