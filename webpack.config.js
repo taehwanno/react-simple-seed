@@ -19,19 +19,19 @@ const common = {
     ],
     vendor: ['react', 'react-dom']
   },
-  eslint: {
-    configFile: './.eslintrc',
-    emitWarning: true,
-    failOnError: true
-  },
+  // eslint: {
+  //   configFile: './.eslintrc',
+  //   emitWarning: true,
+  //   failOnError: true
+  // },
   module: {
     preLoaders: [
-      {
-        test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/,
-        include: path.join(__dirname, 'js'),
-        loader: 'eslint-loader'
-      }
+      // {
+      //   test: /\.jsx?$/,
+      //   exclude: /(node_modules|bower_components)/,
+      //   include: path.join(__dirname, 'js'),
+      //   loader: 'eslint-loader'
+      // }
     ],
     loaders: [
       {
